@@ -1,0 +1,781 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
+}
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mid .hero{
+    position: relative;
+    background: #1917172e;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.mid .hero p{
+    width: 100%;
+    font-size:1.1rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1rem;
+} 
+.mid .hero a{
+    background-color:#089cb9;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.mid .hero a:hover{
+    background-color:#f26531;
+
+}
+
+
+.layout_padding {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+/* studies section start */
+
+.studies_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 100px;
+}
+
+.studies_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #001431;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+}
+
+.studies_section_2 {
+    width: 100%;
+    float: left;
+    padding: 40px 0px 0px 0px;
+}
+
+.studies_box {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: auto;
+    padding: 30px 10px;
+    box-shadow: 0px -3px 15px 0px;
+}
+
+
+/* Zoom In #1 */
+
+.hover01 figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    min-height: 370px;
+}
+
+.hover01 figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.column {
+    margin: 15px 0px 0;
+    padding: 0;
+    box-shadow: 0px 10px 15px 0px;
+}
+
+.column:last-child {
+    padding-bottom: 30px;
+}
+
+.column::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+figure {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
+}
+
+.introduction_text {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #001431;
+    font-size: 20px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.read_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.read_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    background-color: #001431;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.read_bt a:hover {
+    color: #ffffff;
+    background-color: #e53232;
+}
+
+.read_bt.active a {
+    color: #ffffff;
+    background-color: #e53232;
+}
+
+
+/* studies section end */
+
+/* about section start */
+
+.about_section {
+    width: 100%;
+    float: left;
+    background-color: #001431;
+    height: auto;
+    padding: 90px 0px 40px 0px;
+}
+
+.about_text_main {
+    width: 100%;
+    float: left;
+    padding: 100px 0px;
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fefefd;
+    margin: 30px 0px 0px 0px;
+}
+
+.about_img {
+    width: auto;
+    margin-top: 30px;
+}
+
+.readmore_bt {
+    width: 170px;
+    float: left;
+    margin-top: 50px;
+}
+
+.readmore_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #e73232;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.readmore_bt a:hover {
+    color: #ffffff;
+    background-color: #001431;
+}
+
+
+/* about section end */
+
+
+/* box section start */
+
+.box_section {
+    width: 100%;
+    float: left;
+    position: relative;
+    top: -100px;
+}
+
+.online_box {
+    width: 100%;
+    display: flex;
+}
+
+.online_box_left {
+    width: 100%;
+    float: left;
+    background-color: #fefefd;
+    height: auto;
+    padding: 30px;
+    box-shadow: 0px 9px 15px 5px #ededed;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.online_box_main {
+    width: 100%;
+    display: flex;
+}
+
+.box_left {
+    width: auto;
+}
+
+.box_right {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.right_arrow {
+    width: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #001431;
+    border-radius: 100%;
+    text-align: center;
+    padding: 7px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.book_text {
+    width: 100%;
+    font-size: 16px;
+    color: #e73232;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.appoinment_text {
+    width: 100%;
+    font-size: 20px;
+    color: #001431;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.online_box_left:hover {
+    background-color: #e73232;
+}
+
+.online_box_left:hover .book_text {
+    color: #ffffff;
+}
+
+.online_box_left:hover .appoinment_text {
+    color: #ffffff;
+}
+
+.online_box_left.active {
+    background-color: #e73232;
+}
+
+.online_box_left.active .book_text {
+    color: #ffffff;
+}
+
+.online_box_left.active .appoinment_text {
+    color: #ffffff;
+}
+
+
+@media  (max-width: 700px){
+.online_box {
+    width: 100%;
+    display: block;
+}
+.online_box_left {
+    margin: 10px 0px;
+}
+}
+
+
+/* box section end */
+
+/* services section start */
+
+.services_section {
+    width: 100%;
+    float: left;
+}
+
+.services_section_2 {
+    width: 100%;
+    float: left;
+    background-color: #f8f2e2;
+    padding: 90px 0px;
+    margin-top: 60px;
+}
+
+.corporate_text {
+    width: 100%;
+    float: left;
+    color: #001431;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+p.chunks_text {
+    width: 80%;
+    float: left;
+    font-size: 16px;
+    margin: 0px;
+    color: #001431;
+}
+
+.readmore_button {
+    width: 160px;
+    float: left;
+    margin-top: 30px;
+}
+
+.readmore_button a {
+    width: 160px;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #001431;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.service_box .house_icon .image_2 {
+    display: none;
+}
+
+.service_box:hover .house_icon .image_2 {
+    display: block;
+}
+
+.service_box:hover .house_icon .image_1 {
+    display: none;
+}
+
+.service_box:hover .corporate_text {
+    color: #e73232;
+}
+
+.service_box:hover .readmore_button a {
+    background-color: #e73232;
+    color: #ffffff;
+}
+
+.service_box.active .corporate_text {
+    color: #e73232;
+}
+
+.service_box.active .readmore_button a {
+    background-color: #e73232;
+    color: #ffffff;
+}
+
+#main_slider a.carousel-control-prev {
+    left: 40px;
+    top: 130px;
+}
+
+#main_slider a.carousel-control-next {
+    right: 40px;
+    top: 130px;
+}
+
+#main_slider .carousel-control-next,
+#main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background: #001431;
+    opacity: 1;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 100px;
+}
+
+#main_slider .carousel-control-next:focus,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-prev:hover {
+    color: #ffffff;
+    background-color: #e73232
+}
+
+
+
+/* services section end */
+
+
+/*registration form desgin*/
+.btn-get {
+  font-size: 1.8rem;
+  font-family: "Quicksand", sans-serif;
+  color: #fff !important;
+  text-transform: capitalize;
+  background-color:#e12322;
+  padding: 10px 20px 10px;
+  position: relative;
+  border: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  text-transform: capitalize !important;
+}
+
+.btn-get::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  height: 100%;
+  width: 0;
+  left: 0;
+  background-color: #000;
+  -webkit-transition: .5s ease-out;
+  transition: .5s ease-out;
+}
+
+.btn-get:hover::before {
+  width: 100%;
+}
+
+.btn-get span {
+  position: relative;
+  z-index: 2;
+}
+
+
+.main__form .form-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.main__form .form-group label {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  color: #8f0606;
+  padding: 0 2.5rem;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 0;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.main__form .form-group input,
+.main__form .form-group textarea {
+  font-size: 1.2rem;
+  border-color: #4b0a0a;
+  padding: 0 2.5rem;
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+
+.main__form .form-group input:not(:placeholder-shown) + label,
+.main__form .form-group textarea:not(:placeholder-shown) + label {
+  top: 2%;
+  background: #fff;
+  z-index: 2;
+  font-weight: 600;
+}
+
+.main__form .form-group input:focus,
+.main__form .form-group textarea:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.main__form .form-group input:focus::-webkit-input-placeholder,
+.main__form .form-group textarea:focus::-webkit-input-placeholder {
+  color: #999;
+}
+
+.main__form .form-group input:focus:-ms-input-placeholder,
+.main__form .form-group textarea:focus:-ms-input-placeholder {
+  color: #999;
+}
+
+.main__form .form-group input:focus::-ms-input-placeholder,
+.main__form .form-group textarea:focus::-ms-input-placeholder {
+  color: #999;
+}
+
+.main__form .form-group input:focus::placeholder,
+.main__form .form-group textarea:focus::placeholder {
+  color: #999;
+}
+
+.main__form .form-group input:focus + label,
+.main__form .form-group textarea:focus + label {
+  background: #fff;
+  z-index: 2;
+  top: 2%;
+  font-weight: 600;
+}
+
+.main__form .form-group input::-webkit-input-placeholder,
+.main__form .form-group textarea::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.main__form .form-group input:-ms-input-placeholder,
+.main__form .form-group textarea:-ms-input-placeholder {
+  color: transparent;
+}
+
+.main__form .form-group input::-ms-input-placeholder,
+.main__form .form-group textarea::-ms-input-placeholder {
+  color: transparent;
+}
+
+.main__form .form-group input::placeholder,
+.main__form .form-group textarea::placeholder {
+  color: transparent;
+}
+
+.main__form .form-group input {
+  height: 3rem;
+}
+
+.main__form .form-group.form-message label {
+ font-family: "Quicksand", sans-serif;
+  font-size: 1.6rem;
+  color: #575757;
+  padding: 2.5rem;
+  position: absolute;
+  top: -5%;
+  -webkit-transform: unset;
+          transform: unset;
+  z-index: 0;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.main__form .form-group.form-message textarea {
+  padding: 2.5rem;
+}
+
+.main__form .form-group.form-message textarea:not(:placeholder-shown) + label {
+  top: -8% !important;
+  background: #fff;
+  z-index: 2;
+  font-weight: 600;
+  padding: 0 2.5rem !important;
+}
+
+.main__form .form-group.form-message textarea:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.main__form .form-group.form-message textarea:focus::-webkit-input-placeholder {
+  color: #999;
+}
+
+.main__form .form-group.form-message textarea:focus:-ms-input-placeholder {
+  color: #999;
+}
+
+.main__form .form-group.form-message textarea:focus::-ms-input-placeholder {
+  color: #999;
+}
+
+.main__form .form-group.form-message textarea:focus::placeholder {
+  color: #999;
+}
+
+.main__form .form-group.form-message textarea:focus + label {
+  background: #fff;
+  z-index: 2;
+  top: -8% !important;
+  font-weight: 600;
+  padding: 0 2.5rem !important;
+}
+
+.main__form label.btn-attached {
+  background: #9f0908;
+  padding: 11px 42px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1rem;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.main__form label.btn-attached:hover {
+  cursor: pointer;
+  background: #d05814;
+}
+
+.main__form .form-groups.form-check {
+  margin: 1.5rem 0;
+}
+
+.main__form .form-groups.form-check input {
+  position: relative;
+}
+
+.main__form .form-groups.form-check label {
+  font-size: 1.4rem;
+  color: #718399;
+}
+
+.main__form button.btn.btn-get {
+  position: relative;
+  top: 0px;
+  margin: 0 0 -80px;
+  font-size:20px;
+}
+
+
+.project__form {
+  font-size: 1.6rem;
+}
+
+.project__form h3 {
+   font-family: "Quicksand", sans-serif;;
+  font-size: 1.5rem;
+  color: #272727;
+  line-height: 8.8rem;
+  color: #fff;
+}
+
+.project__form::before {
+  display: none;
+}
+
+.ready__started {
+  background: #001431;
+  background-size: 200% 200%;
+  -webkit-animation: AnimationGradient 5s ease infinite;
+          animation: AnimationGradient 5s ease infinite;
+  padding: 0rem 0 5rem;
+  position: relative;
+}
+
+.ready__started::before {
+  background: url(../images/dot-back.png) no-repeat bottom right/contain;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.ready__started p {
+  color: #fff;
+}
+
+.ready__started-box {
+  background: #fff;
+  padding: 3rem;
+  border-radius: 5px;
+  margin-top: 0rem;
+}
+
+.ready__started-box h3 {
+  font-size: 5rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight:900;
+}
+
+.ready__started-box p {
+  color: #272727;
+  font-size: 2.2rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+@-webkit-keyframes AnimationGradient {
+  0% {
+    background-position: 26% 0%;
+  }
+  50% {
+    background-position: 75% 100%;
+  }
+  100% {
+    background-position: 26% 0%;
+  }
+}
+
+@keyframes AnimationGradient {
+  0% {
+    background-position: 26% 0%;
+  }
+  50% {
+    background-position: 75% 100%;
+  }
+  100% {
+    background-position: 26% 0%;
+  }
+}
+
+section.ready__started.project__form {
+  margin-bottom: 40rem;
+}
+
+section.ready__started.project__form .ready__started-box {
+  position: relative;
+  margin-bottom: -40rem;
+  -webkit-box-shadow: 0 3px 3.2rem rgba(0, 0, 0, 0.08);
+          box-shadow: 0 3px 3.2rem rgba(0, 0, 0, 0.08);
+}
+
+
